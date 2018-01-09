@@ -218,9 +218,43 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
   
 </nav>
 
@@ -235,6 +269,155 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/30/2017年射电天文-超导-仪器进展/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="舒诗博 (Shibo Shu)">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shibo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/12/30/2017年射电天文-超导-仪器进展/" itemprop="url">2017年射电天文(超导)仪器进展</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-30T22:55:30+01:00">
+                2017-12-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/12/30/2017年射电天文-超导-仪器进展/" class="leancloud_visitors" data-flag-title="2017年射电天文(超导)仪器进展">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>题目加了“超导”主要是跟低频(50 GHz以下)做下区分，这样下来大概只剩下SIS (Superconductor-Insulator-Superconductor)，HEB (Hot-Electron Bolometer)，TES (Transition Edge Sensor)和KID (Kinetic Inductance Detector)四种主流技术,当然本文也会介绍其他新技术的进展。</p>
+<p>若有遗漏或错误欢迎提醒指正。</p>
+<p>##SIS<br>去年我没参加ISSTT会议，可能错过了一些信息，而且我对SIS不算特别了解，就简单的介绍一下进展。</p>
+<p>严格来说这部分跟SIS没关系，不过还是简单说一下。ALMA的Band 3-10 是基于SIS的，而且都已经正常工作了，band 1&amp;2 是用低温放大器直接放大的，band 1正在台湾生产，band 2还没生产计划。随着低噪声放大器技术的发展，大家都在想把band 2&amp;3合并在一起，变成band 2+3 (67-116 GHz)。不知道未来会不会把band 4也并进去。</p>
+<p><a href="https://en.wikipedia.org/wiki/Submillimeter_Array" target="_blank" rel="noopener">SMA</a>在准备升级到wSMA (wideband SMA)，将中频带宽从8 GHz升级到12 GHz。</p>
+<p><a href="http://www.iram-institute.org/EN/content-page-56-7-56-0-0-0.html" target="_blank" rel="noopener">NOEMA</a>在开辟了新的频段71-80 GHz后迎来了第九台望远镜，并且第十台正在建造，也从马普学会拿到了建设第11台的经费，只等着法国科学院出最后的第12台的经费了。按照每年一台的速度，2020年NOEMA就能集齐12台望远镜了。NOEMA还有一件大事就是安装了新的correlator PolyFix，使得未来12台望远镜2个极化方向乘以2个边带乘以边带带宽7.7 GHz的同时观测得以实现。</p>
+<p>##HEB<br>去年最大的进展大概是Delft的Teun Klapwijk发的一篇题为<a href="https://arxiv.org/abs/1710.09136" target="_blank" rel="noopener">Engineering Physics of Superconducting Hot-Electron Bolometer Mixers</a>的综述，这篇主要讨论关于HEB的器件物理我们知道的和不知道的。紫台张文老师的工作在文中也有涉及。</p>
+<p>作为目前唯一在观测的HEB仪器，SOFIA上的<a href="https://www.sofia.usra.edu/science/proposing-and-observing/sofia-observers-handbook-cycle-6/7-great/71-specifications" target="_blank" rel="noopener">GREAT</a>迎来了大更新。现在的仪器分为upGREAT和4GREAT两部分，upGREAT有两个极化7个像素，低频在 1.8-2.0 THz，高频在 4.7 THz的[OI]单频率点，4GREAT包含0.49-2.59 THz内的4个频段，四个频段(像素)有差不多一样的指向，所以可以同时观测。同时upGREAT里的高频或者低频都可以和4GREAT同时观测的，这算是目前提高望远镜效率进行多频段观测的一个主要方法。</p>
+<p>##TES<br>各个CMB项目都在更新新的阵列，观测频率都开始往低频移，来更好的估计前景辐射，就不多说了。(烂尾了)</p>
+<p>我觉得进展最重要的是用谐振器来读出SQUID，相当于在KID后面连上SQUID，NIST做的已经可以一个片子读出33个SQUID了。鉴于TES最大的问题(对于NIST来说)就是读出问题，这个算是很重要了。</p>
+<p>##KID<br>KID这几年的发展越来越快，在2017年的Low Temperature Detector会上，KID已经快占到三分之一的题目了。</p>
+<p>作为之前成功进行科学观测的NIKA项目的后继者，NIKA2在2017年完成了非极化部分的试运行(两年10个run)，开始作为常驻仪器在IRAM 30m上进行观测。同时，260GHz频段的极化部分也开始试运行。150GHz频段达到交付要求，但是260GHz频段的一个极化方向的探测器阵列噪声超出很多，使得260GHz频段的灵敏度没有达到预期。这个困扰项目很久的问题已经找到原因，问题就出在光路上的极化器上，所以NIKA2现在正常观测的同时就等着更换极化器了。作为第一个基于KID的常驻仪器，NIKA2可以说是相当成功了。</p>
+<p>SRON的AMKID项目终于迎来一些进展，问题也出现在光路上(已解决)，此外，在用一层低温超导材料解决了硅镜片子上的漏光问题后，大概离APEX望远镜也不远了。更重要的是SRON在2017年已经偷偷搭好了光学KID的测试平台，在UCSB一家独大的光学近红外KID领域，以后会更精彩。SRON的野心不小，他们直接将能量分辨率的目标定在R~100，要知道目前UCSB的阵列最好的R也只有5@700nm (UCSB的目标是10@1um)。</p>
+<p>DESHIMA项目是Delft的Akira Endo主导的一个基于KID的片上频谱仪项目，名字来源于江户闭关锁国时期日本唯一和西方(荷兰)的通商地–长崎的出岛(DEJIMA)。Akira在日本完成博士后，在Delft做的博后，现在是助理教授。DESHIMA项目距离2012年第一篇该项目的论文发表已经5年了，终于在今年，DESHIMA的第一个像素在ASTE上开光了，至于结果，等着咯。(就是真的很难做的一个项目)</p>
+<p>UCSB的DARKNESS项目是为Palomar 200”准备的一个1万像素的频谱仪，主要是用KID的快速响应来去除日冕仪之后大气抖动产生的波纹增加对比度来探测系外行星，还有KID本身的能量分辨率作为频谱仪。2016年DARKNESS完成了Palomar上的开光，2017年整个项目在Palomar上进行观测测试，至于结果，等着吧。</p>
+<p>Large Millimeter Telescope (LMT)一台我去年才第一次听说的50米口径毫米波望远镜，也太没存在感了。2017年LMT涌现出两个KID的项目，听说是因为LMT换了director，在望远镜建完10年后想好好用了。第一个是英国Cardiff的MUSCAT，1800像素4‘FOV，预计2018年夏季安装。第二个是UMass和ASU牵头还有NIST等加入的TolTEC，2.1，1.4和1.1mm三频段4‘FOV，分辨率会达到5”@1.1mm。两个项目，MUSCAT在前，TolTEC在后，留给MUSCAT在望远镜上的时间其实只有1年多，其实时间相当短，不过LMT大概也没有观测要做，直接把时间都用来试运行也挺多的。鉴于这是和30m的NIKA2直接竞争的项目，我在这里默默祝好，比心。</p>
+<p>BLAST-TNG是BLASTpol之后的一个KID气球项目，频段0.25,0.35,0.5mm，探测器也是NIST做的，跟TolTEC一样结构。这个项目本来预计2017年发射的，然而发生了不知道什么原因的仪器内爆(inplosive)，使得项目推迟到2018了，拭目以待。</p>
+<p>去年印象最深刻的KID进展，大概是西南交大和NIST合作的KID谐振频率的修正工作。问题的起因是这样的，KID的读出是频域相乘，也就是每个探测器的谐振频率是不一样的，但是加工后的探测器由于种种原因与设计上的谐振频率有偏离，这个偏离会造成谐振频率的重叠，使探测器的读出变得很困难。举个例子，NIKA2大概有80%左右的探测器能工作，但是由于谐振频率太近或者重叠，最后观测中能实际用的探测器数量只有60%左右，相当一部分探测器因为谐振频率的偏离而不能使用。通过找到KID在阵列中和读出频率的对应关系，来确定阵列上每个KID与设计频率的偏离量，然后通过修剪梳状电极电容的来改变电容，最后谐振频率的修正通过电容的变化来实现。很重要又漂亮的工作！</p>
+<p>##其他<br>Origin Space Telescope (OST)是最近NASA在推的大型4K中远红外卫星项目，4K指的是最后的反射镜制冷到4K。从1THz到中红外的频段大气几乎是不透明的，Herschel之后一直没什么进展，SPICA也停滞了，OST可以说被寄予厚望。然而这个频段确实是难，探测器大概率还是TES，KID或者HEB，持币观望吧，不过可以预见，未来几个气球项目会是重点关注的对象。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
     
       
 
@@ -559,7 +742,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -567,6 +750,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -580,6 +772,12 @@
                     <a href="https://github.com/nakedcello" target="_blank" title="GitHub">
                       
                         <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:0913ssb@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
                 
                   <span class="links-of-author-item">
@@ -616,7 +814,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -777,6 +975,323 @@
 
 
   
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
 
 
 
